@@ -1,3 +1,6 @@
+
+import tensorflow as tf
+
 #data 설정
 
 #Vraialbe로 값 주기
