@@ -15,6 +15,11 @@ Tensorflow 기본
   --항상 답을 찾아나감
   
   --cost function의 형태 확인
+  
+  
+  [Simplified hypothesis]
+  
+  -H(x)=W(x) #+b 함수가 사라짐 #W가 최저되는 
 
 
 
