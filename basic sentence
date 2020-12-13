@@ -1,0 +1,20 @@
+#data 설정
+
+#Vraialbe로 값 주기
+W=tf.Vravale(tf.random_normal([1]), name='')
+b=
+
+#hypothesis 가설, 측정값 세우기
+
+#cost
+cost=tf.redue_mean( - )
+
+#최적화
+mini=tf.train.
+train=mini.minimize(cost)
+
+#session실행
+sess=tf.Session()
+sess.run(tf. ())
+
+#pytho
