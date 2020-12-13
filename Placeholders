@@ -1,0 +1,11 @@
+#not data set
+
+#placeholder을 활용한 변수
+X=tf.palceholder(tf.float32)
+
+#python 문장안에서 data 지정과 session 실행
+for step in range():
+  _val=\
+    sess.run([_val], feed_dict={X:[1,2,3]})
+    
+    print(_val)
