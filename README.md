@@ -1,5 +1,6 @@
 # Tensorflow 
 Tensorflow 기본
+
 #출처: 김성 교수님 강의자료
 
 
@@ -35,7 +36,18 @@ Tensorflow 기본
   
 [Simplified hypothesis]
   
-  -H(x)=W(x) #+b 함수가 사라짐 #W가 최저되는 
+ -H(x)=W(x) #+b 함수가 사라짐 #W가 최저되는 
+
+
+
+[classification] 분류예측
+
+-EX)주식, facebook 카테고리 검색 등
+
+
+
+[Logistic Hypothesis]
+-1과 0사이의 Hypothesis
 
 
 
