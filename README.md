@@ -16,7 +16,7 @@ Tensorflow 기본
   
   --multi-variable feature EX) final  점수 (w와x의 값이 늘어남)
     
-    ---Matrix multiplication => H(X)=XW #TensorFlow
+   ---Matrix multiplication => H(X)=XW #TensorFlow
 
 
 
