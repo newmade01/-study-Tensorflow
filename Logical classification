@@ -1,0 +1,26 @@
+import tensorflow as tf
+import numpy as np
+
+x_data=[[][]]
+
+X=tf.placeholder(tf.float32, shape=[None, 2]) #shape에 주의
+Y=
+W=tf.Variable(tf.random_normal([2,1], name='weight'))  #[들어오는 값의 갯수, 나가는 값의 갯수]
+b=tf.Variable(tf.random_normal[1], name='bias') #[나가는 값의 갯수]
+
+#matrix(x,w), sigmoid 사용
+hypothesis=tf.sigmoid(tf.matmul(X,W)+b)
+
+#cost 평균
+cost=-tf.reduce_mean(Y * tf.log(hypothesis)+(1-Y)* tf.log(1-hypothesis))
+
+#Gradient Descent
+train=tf.train.GradientDescentOptimizer(learning_rate=0.01). minimize(cost)
+
+#예측값으로 0과1 측정(0.5기준) True=1 OR False=0
+predicted=tf.cast(hypothesis>0.5, dtype=tf.float32)
+
+#정확도
+accuracy=tf.reduce_mean()
+
+#Launch
