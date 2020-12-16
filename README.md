@@ -7,7 +7,14 @@ Tensorflow 기본
 
 
 [Hypothesis, 가설]  H(x)=W*x+b #W와 b의 값을 학습하게 된다.
--regression:one-variale one-feature EX)exam Score값 예측
+
+-regression:
+
+  --one-variale one-feature EX)exam Score값 예측
+  
+  --multi-variable feature EX) final  점수 
+
+-
 
 
 [Cost function] 실제값과 예측값의 제곱값
