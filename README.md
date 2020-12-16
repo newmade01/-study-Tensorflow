@@ -47,6 +47,7 @@ Tensorflow 기본
 
 
 [Logistic Hypothesis]
+
 -1과 0사이의 Hypothesis
 
 
