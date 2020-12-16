@@ -1,14 +1,17 @@
-# Tensorflow
+# Tensorflow #출처: 김성 교수님 강의자료
 Tensorflow 기본
 
 
 [설치 환경]: anaconda, Jupyter Notebook
 
 
-[Hypothesis]  H()=W*x+b
+[Hypothesis, 가설]  H(x)=W*x+b
 
 
-[Gradient Descet algorithm] 최적화 알고리즘
+[Cost function]
+
+
+[Gradient Descet algorithm] cost의 최적화 알고리즘
 
 -Convex function
   
