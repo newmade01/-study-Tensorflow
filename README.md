@@ -56,7 +56,41 @@ Tensorflow 기본
 
    --y=1: -log(H(x)) #0에 가까워짐
    
-   --y=0: -log(1-H(x)) #거의 
+   --y=0: -log(1-H(x)) #0이면 거의 0, 1이면 무한대에 가까워짐
+   
+   --  ylog(H(x))-(1-y)log(1-H(x))
+   
+     #cost fuunction
+  
+  cost=tf.reduce_mean(-tf.reduce_sum(Y*tf.log(hypothesis)+(1-Y)*tf.log(1-hypothesis)))
+   
+-[Minimize cost]
+
+  -cost(w): 미분한 값에 
+  
+  #Minimize
+  
+  a=tf.Variable(0.1)
+  
+  optimizer=tf.train.GradientDescentOptimizer(a)
+  
+  train=optimizer.minimize(cost)
+  
+-[Gradient decent algorithm]
+
+
+
+
+[Logistic Regression]
+
+-cost(W)값을 작게하는 값을 구해야한다.
+
+-양쪽 W를 구함
+
+
+  
+  
+   
    
    
 
