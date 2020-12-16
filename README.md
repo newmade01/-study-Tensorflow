@@ -60,8 +60,8 @@ Tensorflow 기본
    
    --  ylog(H(x))-(1-y)log(1-H(x))
    
-     #cost fuunction
-  
+ #cost function
+ 
   cost=tf.reduce_mean(-tf.reduce_sum(Y*tf.log(hypothesis)+(1-Y)*tf.log(1-hypothesis)))
    
 -[Minimize cost]
