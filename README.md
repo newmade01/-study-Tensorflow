@@ -50,5 +50,14 @@ Tensorflow 기본
 
 -1과 0사이의 Hypothesis
 
+-Sigma 형태
+
+-[cost fuction]: 실제와 예측값이 같으면 cost값은 작아짐, 틀리면 cost값이 커짐
+
+   --y=1: -log(H(x)) #0에 가까워짐
+   
+   --y=0: -log(1-H(x)) #거의 
+   
+   
 
 
