@@ -7,9 +7,10 @@ Tensorflow 기본
 
 
 [Hypothesis, 가설]  H(x)=W*x+b #W와 b의 값을 학습하게 된다.
+-regression:one-variale one-feature EX)exam Score값 예측
 
 
-[Cost function]
+[Cost function] 실제값과 예측값의 제곱값
 
 
 [Gradient Descet algorithm] cost의 최적화 알고리즘
@@ -21,7 +22,7 @@ Tensorflow 기본
   --cost function의 형태 확인
   
   
-  [Simplified hypothesis]
+[Simplified hypothesis]
   
   -H(x)=W(x) #+b 함수가 사라짐 #W가 최저되는 
 
