@@ -12,9 +12,9 @@ Tensorflow 기본
 
   --one-variale one-feature EX)exam Score값 예측
   
-  --multi-variable feature EX) final  점수 
-
--
+  --multi-variable feature EX) final  점수 (w와x의 값이 늘어남)
+    
+    ---Matrix multiplication => H(X)=XW
 
 
 [Cost function] 실제값과 예측값의 제곱값
