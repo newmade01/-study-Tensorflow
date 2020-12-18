@@ -11,6 +11,7 @@ anaconda, vscode, python
 
 
 **Hypothesis, 가설**  
+-------------
 H(x)=W*x+b #W와 b의 값을 학습하게 된다.
 
 -regression:
@@ -24,11 +25,13 @@ H(x)=W*x+b #W와 b의 값을 학습하게 된다.
 
 
 **Cost function** 
+-------------
 실제값과 예측값의 제곱값
 
 
 
 **Gradient Descet algorithm**
+-------------
 cost의 최적화 알고리즘
 
 -Convex function
@@ -40,12 +43,14 @@ cost의 최적화 알고리즘
   
   
 **Simplified hypothesis**
+-------------
   
  -H(x)=W(x) #+b 함수가 사라짐 #W가 최저되는 
 
 
 
 **classification** 
+-------------
 분류예측
 
 -EX)주식, facebook 카테고리 검색 등
@@ -53,6 +58,7 @@ cost의 최적화 알고리즘
 
 
 **Logistic Hypothesis**
+-------------
 
 -1과 0사이의 Hypothesis
 
@@ -88,6 +94,7 @@ cost의 최적화 알고리즘
 
 
 **Logistic Regression**
+-------------
 
 -cost(W)값을 작게하는 값을 구해야한다.
 
@@ -96,6 +103,7 @@ cost의 최적화 알고리즘
 
 
 **Multinomial classification**
+-------------
 
   
   
