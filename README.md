@@ -12,7 +12,7 @@ anaconda, vscode, python
 
 **Hypothesis, 가설**  
 -------------
-'H(x)=W*x+b' #W와 b의 값을 학습하게 된다.
+`H(x)=W*x+b` #W와 b의 값을 학습하게 된다.
 
 -regression:
 
