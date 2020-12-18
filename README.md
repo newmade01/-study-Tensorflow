@@ -14,13 +14,13 @@ anaconda, vscode, python
 -------------
 `H(x)=W*x+b` #W와 b의 값을 학습하게 된다.
 
--regression:
+- regression:
 
-  --one-variale one-feature EX)exam Score값 예측
+  - one-variale one-feature EX)exam Score값 예측
   
-  --multi-variable feature EX) final  점수 (w와x의 값이 늘어남)
+  - multi-variable feature EX) final  점수 (w와x의 값이 늘어남)
     
-   ---Matrix multiplication => H(X)=XW #TensorFlow
+  - - Matrix multiplication => H(X)=XW #TensorFlow
 
 
 
@@ -34,12 +34,12 @@ anaconda, vscode, python
 -------------
 cost의 최적화 알고리즘
 
--Convex function
+- Convex function
   
-  --항상 답을 찾아나감
+  - 항상 답을 찾아나감
   
-  --cost function의 형태 확인
-  
+  - cost function의 형태 확인
+
   
   
 **Simplified hypothesis**
@@ -53,24 +53,24 @@ cost의 최적화 알고리즘
 -------------
 분류예측
 
--EX)주식, facebook 카테고리 검색 등
+EX)주식, facebook 카테고리 검색 등
 
 
 
 **Logistic Hypothesis**
 -------------
 
--1과 0사이의 Hypothesis
+- 1과 0사이의 Hypothesis
 
--Sigma 형태
+- Sigma 형태
 
--**cost fuction**: 실제와 예측값이 같으면 cost값은 작아짐, 틀리면 cost값이 커짐
+- **cost fuction**: 실제와 예측값이 같으면 cost값은 작아짐, 틀리면 cost값이 커짐
 
-   --y=1: -log(H(x)) #0에 가까워짐
+   - y=1: -log(H(x)) #0에 가까워짐
    
-   --y=0: -log(1-H(x)) #0이면 거의 0, 1이면 무한대에 가까워짐
+   - y=0: -log(1-H(x)) #0이면 거의 0, 1이면 무한대에 가까워짐
    
-   --  ylog(H(x))-(1-y)log(1-H(x))
+   -   ylog(H(x))-(1-y)log(1-H(x))
    
  #cost function
  
@@ -81,7 +81,7 @@ cost의 최적화 알고리즘
   -cost(w): 미분한 값에 
   
   #Minimize
-  
+ 
   `a=tf.Variable(0.1)`
   
   `optimizer=tf.train.GradientDescentOptimizer(a)`
@@ -96,9 +96,9 @@ cost의 최적화 알고리즘
 **Logistic Regression**
 -------------
 
--cost(W)값을 작게하는 값을 구해야한다.
+- cost(W)값을 작게하는 값을 구해야한다.
 
--양쪽 W를 구함
+- 양쪽 W를 구함
 
 
 
