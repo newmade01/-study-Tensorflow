@@ -12,7 +12,8 @@ anaconda, vscode, python
 
 
 
-[Hypothesis, 가설]  H(x)=W*x+b #W와 b의 값을 학습하게 된다.
+**Hypothesis, 가설**  
+H(x)=W*x+b #W와 b의 값을 학습하게 된다.
 
 -regression:
 
@@ -24,11 +25,13 @@ anaconda, vscode, python
 
 
 
-[Cost function] 실제값과 예측값의 제곱값
+**Cost function** 
+실제값과 예측값의 제곱값
 
 
 
-[Gradient Descet algorithm] cost의 최적화 알고리즘
+**Gradient Descet algorithm**
+cost의 최적화 알고리즘
 
 -Convex function
   
@@ -38,25 +41,26 @@ anaconda, vscode, python
   
   
   
-[Simplified hypothesis]
+**Simplified hypothesis**
   
  -H(x)=W(x) #+b 함수가 사라짐 #W가 최저되는 
 
 
 
-[classification] 분류예측
+**classification** 
+분류예측
 
 -EX)주식, facebook 카테고리 검색 등
 
 
 
-[Logistic Hypothesis]
+**Logistic Hypothesis**
 
 -1과 0사이의 Hypothesis
 
 -Sigma 형태
 
--[cost fuction]: 실제와 예측값이 같으면 cost값은 작아짐, 틀리면 cost값이 커짐
+-**cost fuction**: 실제와 예측값이 같으면 cost값은 작아짐, 틀리면 cost값이 커짐
 
    --y=1: -log(H(x)) #0에 가까워짐
    
@@ -68,7 +72,7 @@ anaconda, vscode, python
  
   cost=tf.reduce_mean(-tf.reduce_sum(Y*tf.log(hypothesis)+(1-Y)*tf.log(1-hypothesis)))
    
--[Minimize cost]
+-**Minimize cost**
 
   -cost(w): 미분한 값에 
   
@@ -80,12 +84,12 @@ anaconda, vscode, python
   
   train=optimizer.minimize(cost)
   
--[Gradient decent algorithm]
+-**Gradient decent algorithm**
 
 
 
 
-[Logistic Regression]
+**Logistic Regression**
 
 -cost(W)값을 작게하는 값을 구해야한다.
 
@@ -93,7 +97,7 @@ anaconda, vscode, python
 
 
 
-[Multinomial classification]
+**Multinomial classification**
 
   
   
