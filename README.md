@@ -4,7 +4,9 @@ Tensorflow 기본
 #출처: 유투브 김성 교수님 강의자료
 
 
-[설치 환경]: anaconda, vscode, python
+###[설치 환경]
+
+anaconda, vscode, python
 
 
 
