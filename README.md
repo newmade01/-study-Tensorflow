@@ -45,7 +45,7 @@ cost의 최적화 알고리즘
 **Simplified hypothesis**
 -------------
   
- -H(x)=W(x) #+b 함수가 사라짐 #W가 최저되는 
+ -`H(x)=W(x)` #+b 함수가 사라짐 #W가 최저되는 
 
 
 
@@ -74,7 +74,7 @@ cost의 최적화 알고리즘
    
  #cost function
  
-  cost=tf.reduce_mean(-tf.reduce_sum(Y*tf.log(hypothesis)+(1-Y)*tf.log(1-hypothesis)))
+ ` cost=tf.reduce_mean(-tf.reduce_sum(Y*tf.log(hypothesis)+(1-Y)*tf.log(1-hypothesis)))`
    
 -**Minimize cost**
 
@@ -82,11 +82,11 @@ cost의 최적화 알고리즘
   
   #Minimize
   
-  a=tf.Variable(0.1)
+  `a=tf.Variable(0.1)`
   
-  optimizer=tf.train.GradientDescentOptimizer(a)
+  `optimizer=tf.train.GradientDescentOptimizer(a)`
   
-  train=optimizer.minimize(cost)
+  `train=optimizer.minimize(cost)`
   
 -**Gradient decent algorithm**
 
