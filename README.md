@@ -98,14 +98,24 @@ EX)주식, facebook 카테고리 검색 등
 
 - cost(W)값을 작게하는 값을 구해야한다.
 
-- 양쪽 W를 구함
+- 양쪽 W를 구함, 분류를 구분하는 학습을 시킨다.
 
 
 
 **Multinomial classification**
 -------------
-
+-binary classification + 추가선을 만듬
+**=Marix multiplication**
+-sigmoid함수 적용(0~1사이의 값으로 표현, 확률값)
+-**Cost Function**
+  -cross-Entropy: 확률표->1과 0의 값으로 구분
   
+  
+  
+  
+
+
+
   
    
    
